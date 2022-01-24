@@ -33,3 +33,15 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.heading{
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 0 auto;
+}

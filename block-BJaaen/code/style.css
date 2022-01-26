@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #228EFA;
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+    /* height: 100px;
+    width: 200px; */
+}
+.score{
+    font-size: 20px;
+    font-weight: 800;
+    margin: 10px;
+}
+.play{
+    color: #228EFA;
+}
+.you button {
+ font-size: 50px;
+ margin: 0px 20px;
+ color: #228EFA;
+ border: 0;
+
+    
+}
+.computer button {
+    font-size: 50px;
+    margin: 0px 20px;
+    color: red;
+    border: 0;
+}
+.reset{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 0;
+}

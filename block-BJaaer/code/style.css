@@ -53,6 +53,7 @@ button {
 
 body {
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 input[type='text'] {
@@ -90,4 +91,13 @@ input[type='text'] {
 }
 .terms {
   display: inline-block;
+}
+
+.box{
+  margin: 0 auto;
+  height: 300px;
+  width: 400px;
+  background-color: white;
+  text-align: center;
+  color: black;
 }

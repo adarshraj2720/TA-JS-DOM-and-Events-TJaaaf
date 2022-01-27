@@ -61,7 +61,7 @@ function handleSubmit(event) {
 
 
   if (userName.value.length < 4) {
-    msgError = "Username can't be less than 4 characters";
+    msgError = `username can't be less than 4 character`;
     userName.nextElementSibling.innerText = `❌${msgError}`;
   } else if (userName.value.length >= 4) {
     msgError = "";
@@ -69,7 +69,7 @@ function handleSubmit(event) {
   }
 
   if (nameConatainANumber(name.value)) {
-    msgError = "Name can't be numbers";
+    msgError = "Can't  use number in field";
     name.nextElementSibling.innerText = `❌${msgError}`;
   } else if (!nameConatainANumber(name.value)) {
     msgError = "";
@@ -77,15 +77,15 @@ function handleSubmit(event) {
   }
 
   if(!userEmail.value.includes("@")) {
-    msgError = "Email must contain the symbol `@`";
+    msgError = "Not a valid email";
     userEmail.nextElementSibling.innerText = `❌${msgError}`;
   } else if (userEmail.value.includes("@")) {
-    msgError = "";
+    msgError = "Not a valid email";
     userEmail.nextElementSibling.innerText = "";
   }
 
   if (userEmail.value.length < 6) {
-    msgError = "Email must be at least 6 characters";
+    msgError = "Not a valid email";
     userEmail.nextElementSibling.innerText = `❌${msgError}`;
   } else if (userEmail.value.length >= 6) {
     msgError = "";

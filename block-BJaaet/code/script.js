@@ -47,7 +47,7 @@ cross.addEventListener("click",function(){
   lists.append(list);
   list.append( tick,inputName,cross);
 
-
+  event.target.elements.movie.value=""
 }
 
 form.addEventListener("submit", watchlist);
